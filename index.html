@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Importando os estilos prontos do Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+
+    <!-- Importando a biblioteca de ícones Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="./assets/styles/style.css" type="text/css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <section>
+        <h2>Seletores</h2>
+        <h1 id="mainTitle" class="title">Hello world!</h1>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Eventos e manipulação</h2>
+        <button id="menuBtn" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div id="menu" class="menu">
+          <ul>
+            <li class="list-item">List item 1</li>
+            <li class="list-item">List item 2</li>
+            <li class="list-item">List item 3</li>
+          </ul>
+        </div>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Gerando elementos dinamicamente</h2>
+
+        <ul id="fruitList"></ul>
+        <button id="fruitListSortBtnAsc">Sort Ascending</button>
+        <button id="fruitListSortBtnDesc">Sort Descending</button>
+      </section>
+    </div>
+
+    <script src="./assets/scripts/selectors.js"></script>
+    <script src="./assets/scripts/manipulation.js"></script>
+    <script src="./assets/scripts/events.js"></script>
+  </body>
+</html>
